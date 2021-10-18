@@ -2,7 +2,7 @@ import time
 import os
 import math
 from datetime import datetime
-version = "1.01"
+version = "1.02"
 now = datetime.now()
 current_time = now.strftime("%H:%M:%S")
 clear = lambda: os.system("cls")
