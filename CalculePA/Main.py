@@ -73,6 +73,7 @@ print("Loaded")
 clear()
 print("Select language:")
 print("A: FR")
+print("B: ENG (Buggy)")
 Language = input(": ")
 clear()
 
@@ -461,6 +462,204 @@ if Language == "a":
 
 
     start()
+if Language == "B":
+    def start():
+        print("Please select an option:")
+        print("A: Calculate the perimeter, air of a rectangle")
+        print("B: Calculate the perimeter, air of a square")
+        print("C: Calculate the perimeter, air of a cercle")
+        als = input(": ")
+
+        if als == "a":
+            def start1():
+                longeur = float(input("Length : "))
+                largeur = float(input("width : "))
+                aire = longeur * largeur
+                perimetre = (longeur + largeur) * 2
+                print(" ")
+                print("Calculation the air of a rectangle: ", longeur, "x", largeur)
+                print("Calculation the perimeter of a rectangle: ", longeur, "+", largeur, "x 2")
+                print(" ")
+                print("The air: ", aire)
+                print("The perimetre: ", perimetre)
+                time.sleep(1)
+                print(" ")
+                print("A: Restart")
+                print("B: Back")
+                option1 = input(": ")
+                if option1 == "A":
+                    clear()
+                    start1()
+                elif option1 == "B":
+                    clear()
+                    start()
+                elif option1 == "a":
+                    clear()
+                    start1()
+                elif option1 == "b":
+                    clear()
+                    start()
+
+            start1()
+        elif als == "b":
+            def start2():
+                cote = float(input("Side: "))
+                print(" ")
+                print("Calculation de the air of a square: ", "4", "x", cote)
+                print("Calculation the perimeter of a square: ", cote, "x", cote)
+                print(" ")
+                aire = 4 * cote
+                perimetre = cote * cote
+                print("The air: ", aire)
+                print("The perimetre: ", perimetre)
+                time.sleep(1)
+                print(" ")
+                print("A: Restart")
+                print("B: Back")
+                option2 = input(": ")
+                if option2 == "A":
+                    clear()
+                    start2()
+                elif option2 == "B":
+                    clear()
+                    start()
+                elif option2 == "a":
+                    clear()
+                    start2()
+                elif option2 == "b":
+                    clear()
+                    start()
+
+            start2()
+        elif als == "c":
+            def start3():
+                rayon = float(input("Rayon: "))
+                diametre = float(input("Diameter: "))
+                print(" ")
+                print("Calculation the air of a circle: ", "π", "x", rayon, "x", rayon)
+                print("Calculation the perimeter of a circle: ", "π", "x", diametre)
+                print(" ")
+                aire = pi * (rayon * rayon)
+                perimetre = pi * diametre
+                print("The air: ", aire)
+                print("The perimetre: ", perimetre)
+                time.sleep(1)
+                print(" ")
+                print("A: Restart")
+                print("B: Back")
+                option2 = input(": ")
+                if option2 == "A":
+                    clear()
+                    start3()
+                elif option2 == "B":
+                    clear()
+                    start()
+                elif option2 == "a":
+                    clear()
+                    start3()
+                elif option2 == "b":
+                    clear()
+                    start()
+
+            start3()
+
+        elif als == "A":
+            def start1():
+                longeur = float(input("Length : "))
+                largeur = float(input("width : "))
+                aire = longeur * largeur
+                perimetre = (longeur + largeur) * 2
+                print(" ")
+                print("Calculation the air of a rectangle: ", longeur, "x", largeur)
+                print("Calculation the perimeter of a rectangle: ", longeur, "+", largeur, "x 2")
+                print(" ")
+                print("The air: ", aire)
+                print("The perimetre: ", perimetre)
+                time.sleep(1)
+                print(" ")
+                print("A: Restart")
+                print("B: Back")
+                option1 = input(": ")
+                if option1 == "A":
+                    clear()
+                    start1()
+                elif option1 == "B":
+                    clear()
+                    start()
+                elif option1 == "a":
+                    clear()
+                    start1()
+                elif option1 == "b":
+                    clear()
+                    start()
+
+            start1()
+        elif als == "B":
+            def start2():
+                cote = float(input("Side: "))
+                print(" ")
+                print("Calculation de the air of a square: ", "4", "x", cote)
+                print("Calculation the perimeter of a square: ", cote, "x", cote)
+                print(" ")
+                aire = 4 * cote
+                perimetre = cote * cote
+                print("The air: ", aire)
+                print("The perimetre: ", perimetre)
+                time.sleep(1)
+                print(" ")
+                print("A: Restart")
+                print("B: Back")
+                option2 = input(": ")
+                if option2 == "A":
+                    clear()
+                    start2()
+                elif option2 == "B":
+                    clear()
+                    start()
+                elif option2 == "a":
+                    clear()
+                    start2()
+                elif option2 == "b":
+                    clear()
+                    start()
+
+            start2()
+        elif als == "C":
+            def start3():
+                rayon = float(input("Rayon: "))
+                diametre = float(input("Diameter: "))
+                print(" ")
+                print("Calculation the air of a circle: ", "π", "x", rayon, "x", rayon)
+                print("Calculation the perimeter of a circle: ", "π", "x", diametre)
+                print(" ")
+                aire = pi * (rayon * rayon)
+                perimetre = pi * diametre
+                print("The air: ", aire)
+                print("The perimetre: ", perimetre)
+                time.sleep(1)
+                print(" ")
+                print("A: Restart")
+                print("B: Back")
+                option2 = input(": ")
+                if option2 == "A":
+                    clear()
+                    start3()
+                elif option2 == "B":
+                    clear()
+                    start()
+                elif option2 == "a":
+                    clear()
+                    start3()
+                elif option2 == "b":
+                    clear()
+                    start()
+
+            start3()
+
+
+
+    start()
+
 
 
 
